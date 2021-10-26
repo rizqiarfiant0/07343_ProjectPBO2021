@@ -7,7 +7,6 @@ public class PROGRAMDISKON_07343 {
     public static void main(String[] args){
         
         Scanner input = new Scanner(System.in);
-        do{
         System.out.print("Masukan Jumlah Data : ");
         int n_07343=input.nextInt();
         
@@ -16,18 +15,11 @@ public class PROGRAMDISKON_07343 {
         int jumlah_07343[]=new int[n_07343];
         int total_07343[]=new int[n_07343];
         int potongan1_07343,potongan2_07343,potongan3_07343;
-        int pilih_07343;
         
         System.out.println("### Warung MEKDI ###");
         System.out.println("##########INPUT##########");
         
-        System.out.println("1. Masukan data : ");
-        System.out.println("2. Keluar ");
-        pilih_07343 = input.nextInt();
-        
         System.out.println("================");
-        switch(pilih_07343){
-            case 1:
         for (int i_07343=0;i_07343<n_07343;i_07343++){
         System.out.println("Braang Ke : "+(i_07343+1));
         System.out.print("Masukkan nama Barang : ");
@@ -58,14 +50,6 @@ public class PROGRAMDISKON_07343 {
         System.out.println("Total Bayar (Diskon 20%) : Rp.  "+ potongan1_07343);
     }
     }   
-    break;
-    
-            case 2:
-                System.exit(0);
-                default:
-                System.out.println("Keluar");
-                break;
+   
             }
-        }while(true);
-    }
-}
+        }

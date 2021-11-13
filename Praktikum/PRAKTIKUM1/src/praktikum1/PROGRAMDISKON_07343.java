@@ -21,7 +21,7 @@ public class PROGRAMDISKON_07343 {
         
         System.out.println("================");
         for (int i_07343=0;i_07343<n_07343;i_07343++){
-        System.out.println("Braang Ke : "+(i_07343+1));
+        System.out.println("Barang Ke : "+(i_07343+1));
         System.out.print("Masukkan nama Barang : ");
         nama_07343[i_07343]=input.next();
          
@@ -34,7 +34,7 @@ public class PROGRAMDISKON_07343 {
          
     System.out.println("##########OUTPUT##########");
     for (int i_07343=0; i_07343<n_07343;i_07343++){
-    System.out.println("Braang Ke : "+(i_07343+1));
+    System.out.println("Barang Ke : "+(i_07343+1));
     System.out.println("Nama Barang : " + nama_07343[i_07343]);
     System.out.println("Harga Barang : " + harga_07343[i_07343]);
     System.out.println("Jumlah Barang : " + jumlah_07343[i_07343]);
